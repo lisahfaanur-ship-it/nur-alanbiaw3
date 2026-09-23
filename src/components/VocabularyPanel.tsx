@@ -44,7 +44,7 @@ export const VocabularyPanel: React.FC<VocabularyPanelProps> = ({ words }) => {
             <BookText className="w-5 h-5" />
           </div>
           <div className="text-right">
-            <h3 className="text-sm font-black text-slate-900 dark:text-white">قاموس المفردات الصعبة</h3>
+            <h3 className="text-sm font-black text-slate-900 dark:text-white">قاموس المصطلحات</h3>
             <p className="text-[10px] text-slate-500 dark:text-slate-400">تعلم معاني الكلمات الجديدة في هذه القصة ({words.length})</p>
           </div>
         </div>
